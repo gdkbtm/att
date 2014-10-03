@@ -7,6 +7,7 @@
     border-radius: 6px;
     height: 40px;
 }
+// top div for radio buttons
 .top {
     position: fixed;
     top: 0;
@@ -14,6 +15,7 @@
     width:100px;
     height: 60px;
 }
+// bottom div for table
 .bottom {
     position: fixed;
     top: 60px;
@@ -21,6 +23,7 @@
     bottom: 0;
     overflow: scroll;
 }
+// table style
 .divCss, td{
     white-space:nowrap;
     font-family: "Times New Roman", Georgia, Serif;
@@ -30,6 +33,7 @@
     border-color: black;
     
 }
+// style for My Sales heading
 .mySales{
     white-space:nowrap;
     font-family: "Times New Roman", Georgia, Serif;
@@ -37,31 +41,39 @@
     height:40px;    
     background: #5A5A96;
     color:white; 
+    // top round corners
     border-top-left-radius:1em;
     border-top-right-radius:1em;
 }
+// style for table header
 .header{
     white-space:nowrap;
     font-family: "Times New Roman", Georgia, Serif;
     font-size:10pt; 
     height:40px;
-    background: -webkit-linear-gradient(#feeeee, white); /* For Safari 5.1 to 6.0 */
+    // gradient for table header
+    background: -webkit-linear-gradient(#8585FF, #E0E0FF); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#eeeeee, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#eeeeee, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#eeeeee, white); /* Standard syntax (must be last) */
+    background: -ms-linear-gradient(#8585FF, #E0E0FF); /* Standard syntax (must be last) */
 }
+// style for table row data
 .data{
     white-space:nowrap;
     font-family: "Times New Roman", Georgia, Serif;
     font-size:8pt;    
 }
 
+// radio buttons
 legend {
     color: #067ab4;
     margin: 0 0 0 3px;
     font-size: .95em;
 }
 
+//Green is > 100%
+//Yellow is 95-100%
+//Red is < 95% 
 .GREEN {
     background-color: #CF9;
     color: #333;
